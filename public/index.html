@@ -28,6 +28,52 @@
             translateY: -600,
             delay: anime.stagger(100)
         });
+
+        anime({
+            targets: '#inflammatory',
+            width: 20,
+            delay: 1000,
+            easing: 'easeInOutExpo'
+        });
+        
+        anime({
+            targets: '#bowel',
+            width: 40,
+            delay: 1500,
+            easing: 'easeInOutExpo'
+        });
+
+        anime({
+            targets: '#disease',
+            width: 40,
+            delay: 2000,
+            easing: 'easeInOutExpo'
+        });
+
+        anime({
+            targets: '#inflammatory, #bowel, #disease',
+            top: 650,
+            delay: 3000
+        });
+
+        anime({
+            targets: '#inflammatory',
+            left: 1000,
+            delay: 3000
+        });
+
+        anime({
+            targets: '#bowel',
+            left: 1030,
+            delay: 3000
+        });
+
+        anime({
+            targets: '#disease',
+            left: 1080,
+            delay: 3000
+        })
+        
     </script>
 </body>
 </html>
