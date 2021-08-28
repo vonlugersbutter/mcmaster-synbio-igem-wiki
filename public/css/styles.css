@@ -36,3 +36,21 @@ html {
     left: 100px;
     top: 700px;
 }
+
+#invasive {
+    position: absolute;
+    left: 100px;
+    top: 800px;
+}
+
+#escherichia {
+    position: absolute;
+    left: 100px;
+    top: 900px;
+}
+
+#coli {
+    position: absolute;
+    left: 100px;
+    top: 1000px;
+}
