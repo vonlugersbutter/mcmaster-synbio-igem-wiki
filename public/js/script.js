@@ -322,11 +322,12 @@ anime({
     easing: 'easeInOutExpo'
 });
 
+
 anime({
     targets: '#svg_square',
     opacity: 1,
     duration: 2000,
-    delay: 35000,
+    delay: 35500,
     easing: 'easeInOutExpo'
 });
 
@@ -334,9 +335,10 @@ anime({
     targets: '#svg_circle',
     opacity: 1,
     duration: 2000,
-    delay: 35000,
+    delay: 35500,
     easing: 'easeInOutExpo'
 });
+
 
 anime({
     targets: '#logo',
@@ -348,7 +350,7 @@ anime({
 
 anime({
     targets: '#logo',
-    translateX: -400,
+    translateX: -350,
     delay: 35000,
     easing: 'easeInOutExpo'
 });
@@ -358,13 +360,5 @@ anime({
     strokeDashoffset: [anime.setDashoffset, 0],
     easing: 'easeInOutSine',
     duration: 4000,
-    delay: 35000
-});
-
-anime({
-    targets: '.path',
-    strokeDashoffset: [anime.setDashoffset, 0],
-    easing: 'easeInOutSine',
-    duration: 4000,
-    delay: 35000
+    delay: 36000
 });
