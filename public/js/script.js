@@ -244,5 +244,28 @@ anime({
     targets: '#square',
     scale: 50,
     rotate: 360,
-    duration: 7000
+    opacity:1,
+    duration: 4000,
+    direction: 'alternate',
+    delay: 17000
+});
+
+anime({
+    targets: '#square2',
+    scale: 50,
+    rotate: 360,
+    opacity: 1,
+    duration: 4000,
+    direction: 'alternate',
+    delay: 17000
+});
+
+anime({
+    targets: '#square3',
+    scale: 50,
+    rotate: 360,
+    opacity: 1,
+    duration: 4000,
+    direction: 'alternate',
+    delay: 17000
 });

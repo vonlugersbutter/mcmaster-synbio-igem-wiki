@@ -136,4 +136,26 @@ body {
     position: absolute;
     top: 580px;
     left: 1350px;
+    opacity: 0;
 }
+
+#square2 {
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 590px;
+    left: 1220px;
+    opacity: 0;
+}
+
+#square3 {
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 1350px;
+    opacity: 0;
+}
+
