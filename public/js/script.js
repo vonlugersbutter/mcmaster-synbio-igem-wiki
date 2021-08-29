@@ -61,6 +61,9 @@ anime({
         {value: 370, delay: 7500},
         {value: 740, delay: 6000}
     ],
+    opacity: [
+        {value: 0, delay: 26000}
+    ],
     easing: 'easeInOutExpo'
 });
 
@@ -78,6 +81,9 @@ anime({
         {value: 400, delay: 7500},
         {value: 770, delay: 6000}
     ],
+    opacity: [
+        {value: 0, delay: 26000}
+    ],
     easing: 'easeInOutExpo'
 });
 
@@ -94,6 +100,9 @@ anime({
         {value: 450, delay: 7500},
         {value: 820, delay: 6000}
     ],
+    opacity: [
+        {value: 0, delay: 26000}
+    ],
     easing: 'easeInOutExpo'
 });
 
@@ -105,15 +114,18 @@ anime({
     top: [
         {value: 750, delay: 8500},
         {value: 800, delay: 1500},
-        {value: 750, delay: 5000}
+        {value: 750, delay: 5000},
+        {value: 900, delay: 12000}
     ],
     left: [
         {value: 990, delay: 8500},
         {value: 600, delay: 1500},
-        {value: 990, delay: 5000}
+        {value: 990, delay: 5000},
+        {value: 380, delay: 12000}
     ],
     opacity: [
-        {value: 0, delay: 15500}
+        {value: 0, delay: 15500},
+        {value: 1, delay: 11000}
     ],
     easing: 'easeInOutExpo'
 });
@@ -126,15 +138,18 @@ anime({
     top: [
         {value: 750, delay: 8500},
         {value: 800, delay: 1500},
-        {value: 750, delay: 5000}
+        {value: 750, delay: 5000},
+        {value: 900, delay: 12000}
     ],
     left: [
         {value: 1040, delay: 8500},
         {value: 650, delay: 1500},
-        {value: 1040, delay: 5000}
+        {value: 1040, delay: 5000},
+        {value: 430, delay: 12000}
     ],
     opacity: [
-        {value: 0, delay: 15500}
+        {value: 0, delay: 15500},
+        {value: 1, delay: 11000}
     ],
     easing: 'easeInOutExpo'
 });
@@ -147,15 +162,18 @@ anime({
     top: [
         {value: 750, delay: 8500},
         {value: 800, delay: 1500},
-        {value: 750, delay: 5000}
+        {value: 750, delay: 5000},
+        {value: 900, delay: 12000}
     ],
     left: [
         {value: 1065, delay: 8500},
         {value: 675, delay: 1500},
-        {value: 1065, delay: 5000}
+        {value: 1065, delay: 5000},
+        {value: 455, delay: 12000}
     ],
     opacity: [
-        {value: 0, delay: 15500}
+        {value: 0, delay: 15500},
+        {value: 1, delay: 11000}
     ],
     easing: 'easeInOutExpo'
 });
@@ -168,15 +186,18 @@ anime({
     top: [
         {value: 750, delay: 8500},
         {value: 800, delay: 1500},
-        {value: 750, delay: 5000}
+        {value: 750, delay: 5000},
+        {value: 900, delay: 12000}
     ],
     left: [
         {value: 1110, delay: 8500},
         {value: 720, delay: 1500},
-        {value: 1110, delay: 5000}
+        {value: 1110, delay: 5000},
+        {value: 500, delay: 12000}
     ],
     opacity: [
-        {value: 0, delay: 15500}
+        {value: 0, delay: 15500},
+        {value: 1, delay: 11000}
     ],
     easing: 'easeInOutExpo'
 });
@@ -187,7 +208,8 @@ anime({
         {value: -500, delay: 8500}
     ],
     opacity: [
-        {value: 1, delay: 9500}
+        {value: 1, delay: 9500},
+        {value:0, delay: 16500}
     ],
     easing: 'easeInOutExpo'
 });
@@ -198,7 +220,8 @@ anime({
         {value: -400, delay: 8500}
     ],
     opacity: [
-        {value: 1, delay: 10500}
+        {value: 1, delay: 10500},
+        {value:0, delay: 15500}
     ],
     easing: 'easeInOutExpo'
 });
@@ -215,6 +238,9 @@ anime({
     opacity: [
         {value: 1, delay: 10500}
     ],
+    left: [
+        {value: -240, delay: 27000}
+    ],
     easing: 'easeInOutExpo'
 });
 
@@ -230,13 +256,31 @@ anime({
     targets: '#colicins',
     opacity: [
         {value: 1, delay: 17000}
-    ]
+    ],
+    left: [
+        {value: 380, delay: 27000}
+    ] 
 });
 
 anime({
     targets: '#treating',
     opacity: [
-        {value: 1, delay: 17000}
+        {value: 1, delay: 17500},
+        {value: 0, delay: 8500}
+    ]
+});
+
+anime({
+    targets: '#howdo',
+    opacity: [
+        {value: 1, delay: 27000}
+    ]
+});
+
+anime({
+    targets: '#affect',
+    opacity: [
+        {value: 1, delay: 27000}
     ]
 });
 
@@ -268,4 +312,59 @@ anime({
     duration: 4000,
     direction: 'alternate',
     delay: 17000
+});
+
+anime({
+    targets: '#bigsquare',
+    opacity: 1,
+    duration: 2000,
+    delay: 33000,
+    easing: 'easeInOutExpo'
+});
+
+anime({
+    targets: '#svg_square',
+    opacity: 1,
+    duration: 2000,
+    delay: 35000,
+    easing: 'easeInOutExpo'
+});
+
+anime({
+    targets: '#svg_circle',
+    opacity: 1,
+    duration: 2000,
+    delay: 35000,
+    easing: 'easeInOutExpo'
+});
+
+anime({
+    targets: '#logo',
+    opacity: 1,
+    duration: 2000,
+    delay: 34000,
+    easing: 'easeInOutExpo'
+});
+
+anime({
+    targets: '#logo',
+    translateX: -400,
+    delay: 35000,
+    easing: 'easeInOutExpo'
+});
+
+anime({
+    targets: '.path',
+    strokeDashoffset: [anime.setDashoffset, 0],
+    easing: 'easeInOutSine',
+    duration: 4000,
+    delay: 35000
+});
+
+anime({
+    targets: '.path',
+    strokeDashoffset: [anime.setDashoffset, 0],
+    easing: 'easeInOutSine',
+    duration: 4000,
+    delay: 35000
 });

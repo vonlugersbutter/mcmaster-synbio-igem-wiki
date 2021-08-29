@@ -97,6 +97,22 @@ body {
     width: 700px;
 }
 
+#howdo {
+    position: absolute;
+    opacity: 0;
+    left: 100px;
+    top: 200px;
+    width: 700px;
+}
+
+#affect {
+    position: absolute;
+    opacity: 0;
+    left: 100px;
+    top: 300px;
+    width: 700px;
+}
+
 .rectangle {
     width: 100px;
     height: 20px;
@@ -159,3 +175,34 @@ body {
     opacity: 0;
 }
 
+#bigsquare {
+    opacity: 0;
+    background-color: white;
+    position: absolute;
+    width: 1400px;
+    height: 650px;
+}
+
+#logo {
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -75px;
+    opacity: 0;
+}
+
+#svg_circle {
+    position: absolute;
+    top:290px;
+    left: 450px;
+    width: 400px;
+    opacity: 0;
+}
+
+#svg_square {
+    position: absolute;
+    top: 290px;
+    left:850px;
+    width: 400px;
+    opacity: 0;
+}
