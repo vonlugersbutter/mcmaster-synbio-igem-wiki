@@ -58,7 +58,8 @@ anime({
     ],
     left: [
         {value: 1000, delay: 3000},
-        {value: 370, delay: 7500}
+        {value: 370, delay: 7500},
+        {value: 740, delay: 6000}
     ],
     easing: 'easeInOutExpo'
 });
@@ -74,7 +75,8 @@ anime({
     ],
     left: [
         {value: 1030, delay: 3000},
-        {value: 400, delay: 7500}
+        {value: 400, delay: 7500},
+        {value: 770, delay: 6000}
     ],
     easing: 'easeInOutExpo'
 });
@@ -89,7 +91,8 @@ anime({
     ],
     left: [
         {value: 1080, delay: 3000},
-        {value: 450, delay: 7500}
+        {value: 450, delay: 7500},
+        {value: 820, delay: 6000}
     ],
     easing: 'easeInOutExpo'
 });
@@ -101,11 +104,16 @@ anime({
     ],
     top: [
         {value: 750, delay: 8500},
-        {value: 800, delay: 1500}
+        {value: 800, delay: 1500},
+        {value: 750, delay: 5000}
     ],
     left: [
         {value: 990, delay: 8500},
-        {value: 600, delay: 1500}
+        {value: 600, delay: 1500},
+        {value: 990, delay: 5000}
+    ],
+    opacity: [
+        {value: 0, delay: 15500}
     ],
     easing: 'easeInOutExpo'
 });
@@ -117,11 +125,16 @@ anime({
     ],
     top: [
         {value: 750, delay: 8500},
-        {value: 800, delay: 1500}
+        {value: 800, delay: 1500},
+        {value: 750, delay: 5000}
     ],
     left: [
         {value: 1040, delay: 8500},
-        {value: 650, delay: 1500}
+        {value: 650, delay: 1500},
+        {value: 1040, delay: 5000}
+    ],
+    opacity: [
+        {value: 0, delay: 15500}
     ],
     easing: 'easeInOutExpo'
 });
@@ -133,11 +146,16 @@ anime({
     ],
     top: [
         {value: 750, delay: 8500},
-        {value: 800, delay: 1500}
+        {value: 800, delay: 1500},
+        {value: 750, delay: 5000}
     ],
     left: [
         {value: 1065, delay: 8500},
-        {value: 675, delay: 1500}
+        {value: 675, delay: 1500},
+        {value: 1065, delay: 5000}
+    ],
+    opacity: [
+        {value: 0, delay: 15500}
     ],
     easing: 'easeInOutExpo'
 });
@@ -149,11 +167,16 @@ anime({
     ],
     top: [
         {value: 750, delay: 8500},
-        {value: 800, delay: 1500}
+        {value: 800, delay: 1500},
+        {value: 750, delay: 5000}
     ],
     left: [
         {value: 1110, delay: 8500},
-        {value: 720, delay: 1500}
+        {value: 720, delay: 1500},
+        {value: 1110, delay: 5000}
+    ],
+    opacity: [
+        {value: 0, delay: 15500}
     ],
     easing: 'easeInOutExpo'
 });
@@ -186,7 +209,8 @@ anime({
         {value: -400, delay: 8500}
     ],
     translateX: [
-        {value: 400, delay: 10500}
+        {value: 400, delay: 10500},
+        {value: 790, delay: 6000}
     ],
     opacity: [
         {value: 1, delay: 10500}
@@ -200,4 +224,25 @@ anime({
         {value: -2500, duration: 5000, delay: 11000}
     ],
     easing: 'easeInOutExpo'
+});
+
+anime({
+    targets: '#colicins',
+    opacity: [
+        {value: 1, delay: 17000}
+    ]
+});
+
+anime({
+    targets: '#treating',
+    opacity: [
+        {value: 1, delay: 17000}
+    ]
+});
+
+anime({
+    targets: '#square',
+    scale: 50,
+    rotate: 360,
+    duration: 7000
 });

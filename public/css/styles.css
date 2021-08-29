@@ -81,6 +81,22 @@ body {
     top: 700px;
 }
 
+#colicins {
+    position: absolute;
+    opacity: 0;
+    left: 600px;
+    top: 200px;
+    width: 700px;
+}
+
+#treating {
+    position: absolute;
+    opacity: 0;
+    left: 370px;
+    top: 300px;
+    width: 700px;
+}
+
 .rectangle {
     width: 100px;
     height: 20px;
@@ -94,21 +110,30 @@ body {
 }
 
 #rect2 {
-    right: -250px;
+    right: -300px;
 }
 
 #rect3 {
-    right: -400px;
+    right: -500px;
 }
 
 #rect4 {
-    right: -550px;
-}
-
-#rect5 {
     right: -700px;
 }
 
+#rect5 {
+    right: -900px;
+}
+
 #rect6 {
-    right: -850px;
+    right: -1100px;
+}
+
+#square {
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    top: 580px;
+    left: 1350px;
 }
